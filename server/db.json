@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Aurora Lamp",
+      "price": 29.99,
+      "createdAt": "2026-02-05T09:55:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Cedar Desk",
+      "price": 199,
+      "createdAt": "2026-02-05T10:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Nimbus Chair",
+      "price": 89.5,
+      "createdAt": "2026-02-05T10:05:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Solstice Mug",
+      "price": 12,
+      "createdAt": "2026-02-05T10:10:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Atlas Backpack",
+      "price": 64.2,
+      "createdAt": "2026-02-05T10:15:00.000Z"
+    },
+    {
+      "name": "Pepe",
+      "price": 123,
+      "id": 9,
+      "createdAt": "2026-02-05T10:20:00.000Z"
+    },
+    {
+      "name": "Juana",
+      "price": 12,
+      "id": 10,
+      "createdAt": "2026-02-05T10:25:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Papapa",
+      "price": 12,
+      "createdAt": "2026-02-05T21:51:15.709Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Aurora Pack",
+      "price": 49.5,
+      "createdAt": "2026-02-05T09:40:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Cinder Kit",
+      "price": 79,
+      "createdAt": "2026-02-05T09:50:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Solace Bottle",
+      "price": 19.25,
+      "createdAt": "2026-02-05T10:02:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Nimbus Set",
+      "price": 110,
+      "createdAt": "2026-02-05T10:12:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Quartz Pouch",
+      "price": 14.99,
+      "createdAt": "2026-02-05T10:22:00.000Z"
+    }
+  ]
+}
