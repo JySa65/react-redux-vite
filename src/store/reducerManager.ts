@@ -13,7 +13,21 @@ const createReducerManager = (initialReducers: ReducersMapObject): ReducerManage
   let combinedReducer = combineReducers(reducers);
 
   return {
-    reduce: (state, action) => combinedReducer(state, action),
+    reduce: (state, action) => {
+      let nextState = state;
+      if (nextState) {
+        const keysToRemove = Object.keys(nextState).filter(
+          (key) => !reducers[key]
+        );
+        if (keysToRemove.length) {
+          nextState = { ...nextState };
+          keysToRemove.forEach((key) => {
+            delete nextState[key];
+          });
+        }
+      }
+      return combinedReducer(nextState, action);
+    },
     add: (key, reducer) => {
       if (!key || reducers[key]) return;
       reducers[key] = reducer;
